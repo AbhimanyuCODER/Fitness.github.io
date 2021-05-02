@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS FOR ALL</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="style.css">
+<style>
+    /*CSS RESET*/
+    body {
+        font-family: 'Playball', cursive;
+        color: white;
+        margin: 30px 44px;
+        */ padding: 0px;
+        background: url('IMAGES/bg.jpg');
+    }
+
+    .left {
+
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline block;
+
+    }
+
+    .left img {
+
+        filter: invert(10%);
+        width: 150px;
+        border-radius: 60%;
+        
+    }
+
+    .left div {
+        text-align: center;
+        border: 1px solid aqua;
+    }
+
+    .mid {
+
+        font-size: 20px;
+        ;
+        display: block;
+        width: 70%;
+        margin: 29px auto;
+
+    }
+
+    .right {
+        font-family: 'Playball', cursive;
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        color: white;
+        display: inline-block;
+
+
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 34px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+
+    }
+
+    .btns {
+        font-family: 'Playball', cursive;
+        cursor: pointer;
+        font-size: 20px;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 4px;
+        border-radius: 10px;
+    }
+
+    .btns:hover {
+        background-color: navy;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 63px -10px;
+        padding: 17px 21px;
+        width: 427px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        font-family: 'playball', cursive;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+
+    .container h3 {
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+
+    .btn:hover {
+        background-color: navy;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <img src="IMAGES/logo.jpg">
+            <div>
+                CHAUHAN FITNESS
+            </div>
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME </a></li>
+                <li><a href="#">ABOUT US </a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btns">CALL US NOW </button>
+            <button class="btns">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>JOIN THE BEST GYM OF GREATER NOIDA</h3>
+        <form action="noactionphp">
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
